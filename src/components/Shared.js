@@ -4,7 +4,7 @@ import ImagePanel from './ImagePanel';
 import InfoPanel from './InfoPanel';
 import "../styles/Board.css"
 import '../styles/Home.css';
-class App extends Component {
+class Shared extends Component {
   render() {
     return (
       <div className="Aligner">
@@ -18,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Shared;

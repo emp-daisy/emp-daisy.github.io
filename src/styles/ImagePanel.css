@@ -1,0 +1,75 @@
+.panel {
+  width: 47%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  /* border-right: 3px black solid; */
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #ad5389;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.panel > div {
+  margin: 20px;
+}
+
+.frame {
+  position: relative;
+  display: flex;
+  items-align: center;
+  overflow: hidden;
+  top: 5%;
+  width: 75%;
+  height: 550px;
+  background: url(http://www.pageresource.com/wallpapers/thumb/white-terry-cloth-closeup-texture-picture-free-graph_714896_thumb.jpg);
+  border: 10px solid white;
+  border-radius: 100%;
+  -webkit-box-shadow: 6px 4px 147px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 4px 147px -5px rgba(0,0,0,0.75);
+  box-shadow: 6px 4px 147px -5px rgba(0,0,0,0.75);
+}
+
+.image {
+  background-size: cover;
+}
+
+.responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.frame .image img {
+  position: absolute;
+  transition: 0.4s;
+  transition-delay: 0s;
+}
+
+.frame:hover .image img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.name {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.name > p {
+  margin-block-end: 0em !important;
+  margin-block-start: 0.5em !important;
+  text-align: center;
+}
+
+.occupation {
+  font-size: 17px !important;
+  color: white !important;
+  font-weight: bold !important;
+  margin-block-start: 2em !important;
+}

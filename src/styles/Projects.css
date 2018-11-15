@@ -1,0 +1,80 @@
+.project-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 0 0;
+}
+
+.title {
+  padding: 1px 5px 0 7px;
+  text-align: center;
+}
+
+.desc {
+ padding: 1px 5px 0 7px;
+line-height: 25px;
+text-align: center
+}
+
+.base {
+line-height: 80px;
+border-radius: 0 0 10px 10px;
+text-align: center;
+color: white
+}
+ 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 4px solid #ad5389;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+.expresso {
+  background: #ad5389;  /* fallback for old browsers */
+  background: linear-gradient(to right, #3c1053, #ad5389);
+}
+
+.moon-purple {
+  background: #4e54c8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.red-sunset {
+  background: #355C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.shifter {
+  background: #bc4e9c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.BigHead {
+  background: #c94b4b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+

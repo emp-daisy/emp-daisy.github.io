@@ -1,0 +1,48 @@
+.nav {
+  height: 70px; 
+  width: 90%; 
+  top: 0%; 
+  left: 5%;
+  position: absolute;
+  padding: 3px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #00000017;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.logo-container {
+  width: 42%
+}
+
+.logo {
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-link-container {
+  padding: 0px;
+  width: 50%;
+  overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.nav-link-container a {
+  float: left;
+  color: #00000091;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-link-container-right {
+  float: right;
+}

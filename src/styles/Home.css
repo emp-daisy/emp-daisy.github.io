@@ -1,0 +1,10 @@
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Aligner-item {
+  max-width: 80%;
+}

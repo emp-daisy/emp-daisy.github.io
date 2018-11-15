@@ -12,6 +12,7 @@
     "homepage": "https://emp-daisy.github.io/"
   },
   "dependencies": {
+    "history": "^4.7.2",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.9.4",
     "react": "^16.5.2",
