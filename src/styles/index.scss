@@ -1,4 +1,10 @@
 @import '~font-awesome/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya+Sans+SC:700|Changa:700|Karma:700|Raleway|Ruda:700|Sofadi+One|Ubuntu+Mono:700|Ultra|Teko:700|Artifika|BioRhyme+Expanded|Pridi|Ultra|Chivo:900|Goblin+One|Press+Start+2P|Racing+Sans+One|Syncopate:700');
+@import url('https://fonts.googleapis.com/css?family=Inika:700|Laila:600|Marko+One|Noticia+Text:700|Roboto+Slab:700&display=swap');
+@import './_glitter';
+@import './__skill';
+@import "./__timeline";
+@import "./__portfolio";
 
 body {
   margin: 0;
@@ -13,4 +19,197 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.app {
+  background: #e2e1e1;
+  text-align: center;
+  width: 100wh;
+  // font-family: 'Roboto', serif;
+  font-family: 'Karma', serif;
+  // font-family: 'Ruda', sans-serif;
+  // font-family: 'Changa', sans-serif;
+  // font-family: 'Ubuntu Mono', monospace;
+  // font-family: 'Sofadi One', cursive;
+
+  font-family: 'Artifika', serif;
+  // font-family: 'Pridi', serif;
+  // font-family: 'Ultra', serif;
+  // font-family: 'BioRhyme Expanded', serif;
+
+  .parallax {
+    background-image: url('../assets/mohamed-mazouz-797941-unsplash.jpg');
+    height: 100%;
+    color: white;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-header {
+    font-family: 'BioRhyme Expanded', serif;
+  }
+
+  .profile {
+    font-family: 'Teko', sans-serif;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-size: 2rem;
+    color: white;
+
+    .img-frame {
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      border-radius: 100%;
+      height: 40vmin;
+      width: 40vmin;
+      margin-bottom: 20px;
+      padding: 10px;
+
+      background: linear-gradient(-30deg, #091d36, #ffffff, #1e0030);
+      background-size: 400% 400%;
+      animation: img-frame 15s ease infinite;
+
+      background-image: linear-gradient( 45deg, #414141 0%, #848484 33%, #d82e2e 66%, #9a59bf 100% );
+      background-size: 400%;
+      background-position: 0% 50%;
+      transition: background-position 0.4s, transform 0.4s;
+
+      .profile-pic {
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+        object-fit: cover;
+        transform: rotate(-75deg);
+      }
+    }
+
+    .full-name {
+      font-family: 'Roboto Slab', serif;
+      font-family: 'Noticia Text', serif;
+      font-family: 'Inika', serif;
+      font-family: 'Marko One', serif;
+      font-family: 'Laila', serif;
+      font-size: 25px;
+      font-size: 4rem;
+      font-weight: 800;
+    }
+
+    .bio {
+      font-size: 18px;
+      font-family: 'Ubuntu Mono', monospace;
+      font-family: 'Roboto Slab', serif;
+      font-family: 'Noticia Text', serif;
+      font-family: 'Inika', serif;
+      font-family: 'Marko One', serif;
+      font-family: 'Laila', serif;
+    }
+
+    .social-icons {
+      margin: 20px 0;
+
+      a {
+        color: white;
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .technologies {
+    // height: 500px;
+    color: black;
+
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  blockquote {
+    font-size: 20px;
+    padding: 0.5em;
+    font-family: 'Sofadi One', cursive;
+
+    &:before {
+      content: "\201C";
+      font-family: Georgia, serif;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    &:after {
+      content: "\201D";
+    }
+  }
+
+  .about {
+    min-height: 800px;
+    padding-top: 1px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+
+
+    .section {
+      margin-top: 5px;
+      // font-family: 'Ruda', sans-serif;
+      font-family: 'Ubuntu Mono', monospace;
+
+      .sub-title {
+        background: white;
+        color: black;
+        padding: 5px;
+        // border-radius: 10px;
+      }
+    }
+  }
+
+  .contact {
+    min-height: 400px;
+    padding-top: 1px;
+    min-height: 400px;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      font-size: 30px;
+    }
+    .social-icons {
+      margin: 20px 0;
+
+      a {
+        color: white;
+        margin: 0 5px;
+      }
+    }
+    .copyright{
+      margin-top: 30px;
+      .face { color: yellow}
+      .fa-beat {
+        color: red;
+
+        &:hover {
+          animation: pulse .5s ease infinite alternate;
+          transform-origin: center;
+        }
+      }
+    }
+  }
+
+}
+
+/* Heart beat animation */
+@keyframes pulse {
+  to { transform: scale(1.4); }
 }

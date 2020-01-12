@@ -1,20 +1,28 @@
 import React, { Component } from 'react';
-import '../styles/App.scss';
 import Profile from './Profile';
 import Technology from './Technology';
-import About from './About';
-import Contact from './Contact';
 import Footer from './Footer';
+import Experience from './Experience';
+import Portfolio from './Portfolio';
 
 class App extends Component {
+
+  glitter = () => (
+    <>
+      <div className="glitter" />
+      <div className="glitter__medium" />
+      <div className="glitter__big" />
+    </>
+  )
   render() {
     return (
       <div className="app">
-        <Profile/>
-        <Technology/>
-        <About/>
-        <Contact/>
-        <Footer/>
+        {/* <this.glitter/> */}
+        <Profile className='parallax'/>
+        <Technology className='plain-section' />
+        <Portfolio className='parallax'/>
+        <Experience className='plain-section' />
+        <Footer className='parallax'/>
       </div>
     );
   }

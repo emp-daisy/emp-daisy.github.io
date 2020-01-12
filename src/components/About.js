@@ -1,8 +1,8 @@
 import React from 'react';
-const About = () => {
+const About = ({className=''}) => {
   return (
-    <div className="about parallax">
-      <h3>About me</h3>
+    <div className={`about ${className}`}>
+      <h3 className='section-header'>About me</h3>
       <blockquote>Jack of most language, Master of a growing list</blockquote>
       <div className="section">
         <span>Focus on writing clean and efficient code</span>
