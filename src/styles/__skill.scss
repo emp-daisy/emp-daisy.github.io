@@ -1,0 +1,21 @@
+.skill-set {
+//   margin: 20px 25%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    margin: 0;
+    margin-top: 20px;
+    font-family: "Ubuntu Mono", monospace;
+
+    width: 100%;
+    text-align: left;
+
+    i {
+      margin: 0 10px;
+    }
+  }
+}
