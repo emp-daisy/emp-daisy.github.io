@@ -19,6 +19,7 @@ const WorkTimeline = [
     icon: 'briefcase',
     title: 'Frontend Developer @ ECR Technologies',
     start: '2017',
+    end: '2018',
     description: `Worked on several projects such as a School Management
     Application using PHP.`
   },
@@ -34,6 +35,7 @@ const WorkTimeline = [
     icon: 'briefcase',
     title: 'Frontend Developer @ Secoura',
     start: '2019',
+    end: '2020',
     description: `Working in a remote team using NextJS and Redux to build a
     cybersecurity web application that provides real-time
     collection, management, analysis and detection of emerging

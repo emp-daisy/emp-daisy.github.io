@@ -24,7 +24,7 @@ code {
 .app {
   background: #e2e1e1;
   text-align: center;
-  width: 100wh;
+  width: 100vw;
   // font-family: 'Roboto', serif;
   font-family: 'Karma', serif;
   // font-family: 'Ruda', sans-serif;
@@ -72,16 +72,23 @@ code {
       height: 40vmin;
       width: 40vmin;
       margin-bottom: 20px;
+      margin: 25px 0 10px;
+
       padding: 10px;
 
       background: linear-gradient(-30deg, #091d36, #ffffff, #1e0030);
       background-size: 400% 400%;
       animation: img-frame 15s ease infinite;
-
       background-image: linear-gradient( 45deg, #414141 0%, #848484 33%, #d82e2e 66%, #9a59bf 100% );
+      background-image: linear-gradient(45deg,#d0d0d0 0%,#10044a 33%,#10044a 66%,#0c4e4a 100%);
       background-size: 400%;
       background-position: 0% 50%;
       transition: background-position 0.4s, transform 0.4s;
+      background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+      background: conic-gradient($colors);
+      background: conic-gradient(#540404, #370454, #045254, #100454,
+      #044d54, #105404, #515404, #543904);
+      background: repeating-conic-gradient(#120024 10%, #C5C5C5 11%);
 
       .profile-pic {
         height: 100%;
@@ -121,13 +128,16 @@ code {
     }
   }
 
+  h3 {
+    font-size: 30px;
+    @media only screen and (max-width: 300px){
+        font-size: 20px;
+    }
+  }
+
   .technologies {
     // height: 500px;
     color: black;
-
-    h3 {
-      font-size: 30px;
-    }
   }
 
   blockquote {
@@ -150,12 +160,6 @@ code {
   .about {
     min-height: 800px;
     padding-top: 1px;
-
-    h3 {
-      font-size: 30px;
-    }
-
-
 
     .section {
       margin-top: 5px;
@@ -180,9 +184,6 @@ code {
     flex-direction: column;
     justify-content: center;
 
-    h3 {
-      font-size: 30px;
-    }
     .social-icons {
       margin: 20px 0;
 

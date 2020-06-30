@@ -34,9 +34,9 @@ $colors: (#540404, #370454, #045254, #100454, #105404, #515404, #543904, #044d54
 .main-timeline {
   overflow: hidden;
   position: relative;
-  margin: 25px;
   max-width: 800px;
   margin: 25px auto;
+  padding: 0 5%;
   h4 {
     text-align: center;
     margin: 30px 0;
@@ -241,8 +241,11 @@ $colors: (#540404, #370454, #045254, #100454, #105404, #515404, #543904, #044d54
   }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 568px) {
+// @media only screen and (max-width: 990px) {
   .main-timeline {
+    margin: 25px 5%;
+    padding: 0;
     .timeline {
       width: 100%;
       &:nth-child(even) {
