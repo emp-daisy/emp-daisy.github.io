@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "be5268a9564e89897093",
-    "url": "/static/css/main.69b4e483.chunk.css"
+    "revision": "6dd469f17355d1780132",
+    "url": "/static/css/main.30aba8c3.chunk.css"
   },
   {
-    "revision": "be5268a9564e89897093",
-    "url": "/static/js/main.be5268a9.chunk.js"
+    "revision": "6dd469f17355d1780132",
+    "url": "/static/js/main.6dd469f1.chunk.js"
   },
   {
     "revision": "04525b22638cfeb62a66",
@@ -20,12 +20,16 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "5a0d130a4b2bca432d16007cb607795b",
-    "url": "/static/media/20181018_124810.5a0d130a.jpg"
+    "revision": "8e9a0ac4ecdedd5f4d2cfa29363e88d7",
+    "url": "/static/media/portfolio_dp.8e9a0ac4.jpg"
   },
   {
     "revision": "4da7829d3cc3b74d6a126a67ec0dc72e",
     "url": "/static/media/mohamed-mazouz-797941-unsplash.4da7829d.jpg"
+  },
+  {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -36,10 +40,6 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/static/media/fontawesome-webfont.912ec66d.svg"
-  },
-  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/static/media/fontawesome-webfont.af7ae505.woff2"
   },
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "a31f827340086fee11fdfd4bc84f5e01",
+    "revision": "0cb4f8742e277967fa61cd2a451346aa",
     "url": "/index.html"
   }
 ];
