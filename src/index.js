@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { Router } from 'react-router';
 import App from './components/App';
 import './styles/index.scss';
-import createHashHistory from 'history/createHashHistory';
+import { createHashHistory } from 'history';
 
 const hashHistory = createHashHistory({ basename: process.env.PUBLIC_URL });
 
