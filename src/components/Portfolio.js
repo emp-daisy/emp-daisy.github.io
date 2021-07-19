@@ -56,13 +56,13 @@ const Portfolio = ({className=''}) => {
       <h3 className='section-header'>Portfolio</h3>
       <p>Below are few of the work I have done so far</p>
       <ul className="portfolio-cards">
-        {projects.map((proj)=>(
-          <li className="card">
+        {projects.map((proj, idx)=>(
+          <li className="card" key={`project-${idx}`}>
             <div className="card_content">
               <h2 className="card_title">{proj.name}{proj.year && <span>{proj.year}</span>}</h2>
               <p className="card_text">{proj.description}</p>
               <div className="card_tag">
-                {proj.stack && proj.stack.map((stk)=> <span>{stk}</span>)}
+                {proj.stack && proj.stack.map((stk)=> <span key={`project-${idx}-${stk}`}>{stk}</span>)}
               </div>
               <div className='card_action'>
                 {proj.website && <a href={proj.website}>Demo</a>}

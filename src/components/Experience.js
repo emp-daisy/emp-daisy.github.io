@@ -40,7 +40,17 @@ const WorkTimeline = [
     cybersecurity web application that provides real-time
     collection, management, analysis and detection of emerging
     cyber threats across the business system.`
-  }
+  },
+  {
+    icon: 'briefcase',
+    title: 'Full-stack Developer @ Clinify Inc',
+    start: '2020',
+    end: '2021',
+    description: `Planning and building backend structure with graphQL endpoints
+    ● Developed full-stack web applications which processed, analyzed and rendered data visually
+    ● Capturing the best development practices that helped to decrease code complexity and improve the maintainability of the shared libraries and components
+    ● Design and configuration of the fully automated CI/CD lifecycle for the application resulting in 5x reduction of average deployment time`
+  },
 ]
 
 const Experience = ({ className = "" }) => {
@@ -51,8 +61,8 @@ const Experience = ({ className = "" }) => {
         <div className="row">
           <div className="col-md-12">
             <div className="main-timeline">
-              {WorkTimeline.map(work => (
-                <div className="timeline">
+              {WorkTimeline.map((work, idx) => (
+                <div className="timeline" key={`experience-${idx}`}>
                   <div className="timeline-icon">
                     <i className={`fa fa-${work.icon}`}></i>
                   </div>

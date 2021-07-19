@@ -36,15 +36,15 @@ const skills = [
   // MOBILE
   { label: "React Native", value: 25, type: 'mobile' },
   // BACKEND
-  { label: "Nest JS", value: 25, type: 'backend' },
+  { label: "NestJS", value: 25, type: 'backend' },
   { label: "API", value: 15, type: 'backend' },
   { label: "TypeORM", value: 15, type: 'backend' },
-  { label: "Node JS", value: 10, type: 'backend' },
-  { label: "Express JS", value: 10, type: 'backend' },
+  { label: "NodeJS", value: 10, type: 'backend' },
+  { label: "ExpressJS", value: 10, type: 'backend' },
   // FRONTEND
-  { label: "React JS", value: 20, type: 'frontend' },
+  { label: "ReactJS", value: 20, type: 'frontend' },
   { label: "Redux", value: 10, type: 'frontend' },
-  { label: "Next JS", value: 20, type: 'frontend' },
+  { label: "NextJS", value: 20, type: 'frontend' },
   { label: "Angular", value: 10, type: 'frontend' },
   { label: "HTML", value: 10, type: 'frontend' },
   { label: "CSS", value: 10, type: 'frontend' },

@@ -1,2 +1,2 @@
 ### Empress Codes
-###### * [Visit website](https://emp-daisy.github.i/)
+###### * [Visit website](https://emp-daisy.github.io/)
